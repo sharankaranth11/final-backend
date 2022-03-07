@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add mongoose
+
+PATH: 
+  C:\Users\FLOYDEN\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\Python27;C:\Python27\Scripts;C:\Python38\Scripts;C:\Python38;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\oracle18c-XE\dbhomeXE\bin;C:\python37\Scripts;C:\python37;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\FLOYDEN\AppData\Local\Microsoft\WindowsApps;C:\Users\FLOYDEN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\adb;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Users\FLOYDEN\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\OpenJDK\openjdk-8u272-b10\bin;C:\Program Files\gradle-6.7\bin;C:\Program Files (x86)\Yarn\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Kubernetes\Minikube;C:\Go\bin;C:\Users\FLOYDEN\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\flutter\bin;C:\Users\FLOYDEN\AppData\Local\Yarn\bin;C:\Users\FLOYDEN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\FLOYDEN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\FLOYDEN\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.1\bin;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;C:\Users\FLOYDEN\AppData\Local\Programs\terminal\Hyper\resources\bin;C:\Users\FLOYDEN\AppData\Roaming\npm;C:\Kubernetes\Minikube;C:\Users\FLOYDEN\go\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\FLOYDEN\Desktop\Final-Project\Backend\package.json: Unexpected token } in JSON at position 273
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.3",
+      
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
